@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="2dp"
+        app:cardUseCompatPadding="true"
+        android:elevation="2dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="wrap_content"
+                android:text="13/EG/CO/681"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:id="@+id/tv_tk_reg"
+                android:textColor="@color/colorBlack"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                android:text="Nsikak Emmanuel"
+                android:gravity="center"
+                android:id="@+id/tv_tk_name"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"/>
+            <CheckBox
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:id="@+id/cb_tk_attendance"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

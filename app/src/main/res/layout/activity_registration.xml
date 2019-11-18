@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bencc"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="40dp"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:hint="Email Address"
+            android:id="@+id/et_reg_email"
+            android:gravity="center"
+            android:textColorHint="@color/white"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edit_text2_background"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:id="@+id/et_reg_password"
+            android:textColorHint="@color/white"
+            android:background="@drawable/edit_text2_background"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/et_reg_con_password"
+            android:gravity="center"
+            android:textColorHint="@color/white"
+            android:background="@drawable/edit_text2_background"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:hint="Reg Number"
+            android:inputType="text"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:visibility="gone"
+            android:id="@+id/et_reg_number"
+            android:textColorHint="@color/white"
+            android:background="@drawable/edit_text2_background"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:hint="Name"
+            android:inputType="text"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/et_reg_name"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textColorHint="@color/white"
+            android:background="@drawable/edit_text2_background"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="As Student"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:id="@+id/ch_staff"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="24sp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Register"
+            android:textAllCaps="false"
+            android:id="@+id/btn_register"
+            android:background="@drawable/edit_text_background"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
